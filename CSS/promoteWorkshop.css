@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("imgen/saleworkshop.jpg");
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main {
+  width: 100%;
+  /* padding: 20px; */
+  margin: auto;
+  margin-top: 2%;
+}
+
+.Container__all {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 450px;
+  column-gap: 4%;
+}
+
+.contain22 {
+  background: gray;
+  padding: 5%;
+  border-radius: 5%;
+}
+.container__image__sale {
+  width: 80%;
+  height: 100%;
+}
+
+.img__workshop {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.text__showmore {
+  color: white;
+}
+.input__container {
+  margin-bottom: 4%;
+}
+.input__search {
+  width: 30%;
+  border-radius: 8%;
+  border: 1px solid #e0e0e0;
+}
+.container__bodyworkshops {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  row-gap: 4%;
+  column-gap: 4%;
+  background-color: #e0e0e0;
+}
+
+.container__workshop {
+  border: 0.5px solid black;
+  background-color: white;
+  border-radius: 10%;
+}
+.name__workshop {
+  text-align: center;
+}
+.description__workshop {
+  text-align: justify;
+  color: black;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.container__info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  padding: 4%;
+}
+
+.button__showmore {
+  background: #4f4f4f;
+  border-radius: 10%;
+  border: 0.5px solid #4f4f4f;
+  width: 40%;
+  margin: auto;
+  padding: 2%;
+}
+
+.container__info__workshop {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.container__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container__sales {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.image__sale {
+  width: 100%;
+}
+
+.text__info__workshop {
+  color: black;
+  width: 70%;
+}
+.button__contact {
+  color: white;
+  background: #252525;
+  border: 1px solid #252525;
+  padding: 3%;
+  border-radius: 10%;
+}
+
+.form__promote {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.button__send {
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  background: #1e90ff;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: all 300ms;
+}
+input{
+  height: 25px;
+}
+a:hover{
+  background: white;
+  color:  #1e90ff;
+}
+.text--inicio{
+  font-size: 20px;
+}
+
+.container__info__promote{
+  display: flex;
+  flex-direction: column;
+  gap: 6%;
+
+}
+.white {
+  font-size: 60px ;
+}
+.white2{
+
+  font-size: 25px;
+
+}
+
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  outline: none;
+  outline: none;
+}
+.white {
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-10 {
+  width: 100%;
+}
+
+.g-10 {
+  gap: 10px;
+}
+
+.g-50 {
+  gap: 50px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    margin-top: 50px;
+  }
+
+  .box {
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .box div {
+    margin: 0px;
+
+  }
+  .container__info__promote{
+    display: none;
+  }
+
+  /*Formularios*/
+
+  .container--register {
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
+  .contain22{
+    width: 400px;
+  }
+
+
+}
+@media screen and (max-width: 1024px) {
+  .sociales {
+    text-align: right;
+  }
+}

@@ -1,0 +1,103 @@
+#components .comp-column {
+  position: relative;
+  margin-bottom: 30px;
+  top: 50px;
+  left: 0;
+}
+#components .comp-descip {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 45%;
+  height: 98.8%;
+  text-align: left;
+}
+#components img {
+  width: 100%;
+  height: 100%;
+  max-width: 420px;
+  max-height: 280px;
+}
+#components .title {
+  font-size: 25px;
+  margin: 5px 0;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+#components .components--txt {
+  position: absolute;
+  top: 100px;
+  left: 12px;
+}
+#components .general_title {
+  text-align: center;
+  font-size: 35px;
+  color: #333333;
+  position: absolute;
+  left: 100px;
+}
+#components .BUTONN {
+  position: absolute;
+  display: block;
+  top: 210px;
+  left: 30px;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  background: #1e90ff;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: all 300ms;
+}
+@media (min-width: 480px) {
+  #components .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+  #components .comp-column {
+    width: 49%;
+  }
+  #components .comp-descip {
+    width: 100%;
+  }
+  #components .BUTONN {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  #components .comp-descip {
+    width: 45%;
+  }
+  #components .BUTONN {
+    display: block;
+  }
+  #components a:hover {
+    background: #ffffff;
+    color: #1e90ff;
+  }
+}
+@media (min-width: 1024px) {
+  #components .title {
+    font-size: 30px;
+  }
+  #components .components--txt {
+    position: absolute;
+    top: 120px;
+    left: 12px;
+  }
+  #components .comp-descip {
+    width: 45%;
+  }
+  #components .general_title {
+    top: 370px;
+    left: 520px;
+  }
+}

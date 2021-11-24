@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="CSS/Styles.css" />
+    <link rel="stylesheet" href="CSS/loginstyles.css" />
+    <link rel="stylesheet" href="CSS/fontello.css" />
+    <title>Fast Tuning</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="icon-cab">Fast Tuning</h1>
+        <input type="checkbox" id="menu-bar" />
+        <label class="icon-menu" for="menu-bar"></label>
+        <nav class="menu">
+          <a class="icon-home" href="index.html">Start</a>
+          <a class="icon-search" href="FindWorkshop.html">Find Workshop</a>
+          <a class="icon-star" href="PromoteWorkshop.html">Promote workshop</a>
+          <a class="icon-smile" href="Us.html">Us</a>
+          <a class="icon-users" href="Login.html">Log in</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="Container__all">
+        <div class="box">
+          <div class="box__back">
+            <h3>Do you have an account?</h3>
+            <p>Login to enter the page</p>
+            <button id="btn__iniciar-sesion">Log in</button>
+          </div>
+          <div class="box-register">
+            <h3>creat your account</h3>
+            <p>Sign up so you can log in</p>
+            <button id="btn__registrarse">Sign up</button>
+          </div>
+        </div>
+
+        <!--Formulario de Login y registro-->
+        <div class="container--register">
+          <!--Login-->
+          <form action="" class="forms__login">
+            <h2>Log in</h2>
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="password" />
+            <button>Start</button>
+          </form>
+
+          <!--Register-->
+          <form action="" class="forms__register">
+            <h2>Sign up</h2>
+            <input type="text" placeholder="Full name" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="User" />
+            <input type="password" placeholder="Password" />
+            <button>Sign up</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>

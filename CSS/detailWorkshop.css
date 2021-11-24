@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("imgen/fondo2.png");
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.t1{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+
+}
+.t2{
+  color: white;
+  font-size: 20px;
+}
+main {
+  width: 100%;
+  /* padding: 20px; */
+  margin: auto;
+  margin-top: 2%;
+}
+
+.Container__all {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  height: 550px;
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+.container__image__sale {
+  width: 100%;
+  height: 100%;
+}
+
+.img__workshop {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.text__showmore {
+  color: white;
+}
+.input__container {
+  margin-bottom: 4%;
+}
+.input__search {
+  width: 30%;
+  border-radius: 8%;
+  border: 1px solid #e0e0e0;
+}
+.container__bodyworkshops {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  row-gap: 4%;
+  column-gap: 4%;
+  background-color: #e0e0e0;
+}
+
+.container__workshop {
+  border: 0.5px solid black;
+  background-color: white;
+  border-radius: 10%;
+}
+.name__workshop {
+  text-align: center;
+}
+.description__workshop {
+  text-align: justify;
+  color: black;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.container__info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  padding: 4%;
+}
+
+.button__showmore {
+  background: #4f4f4f;
+  border-radius: 10%;
+  border: 0.5px solid #4f4f4f;
+  width: 40%;
+  margin: auto;
+  padding: 2%;
+}
+
+.container__info__workshop {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.container__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container__sales {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+}
+
+.image__sale {
+  width: 100%;
+}
+
+.text__info__workshop {
+  color: black;
+  width: 70%;
+}
+.button__contact a{
+  position: absolute;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 14px;
+  background: #1e90ff;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  top: 200px;
+  outline: none;
+  transition: all 300ms;
+  border: none;
+}
+.button__contact a:hover{
+  background: #ffffff;
+  color: #1e90ff;
+}
+.container__right h3{
+  color: white;
+}
+@media screen and (max-width: 850px) {
+  main {
+    margin-top: 50px;
+  }
+  .container__right{
+    display: none;
+  }
+
+  .box {
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+  }
+  .t1 {
+    position: relative;
+  }
+  .t2{
+    position: relative;
+  }
+  .button__contact{
+    display: none;
+  }
+
+  .box div {
+    margin: 0px;
+
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  /*Formularios*/
+
+  .container--register {
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
+
+  .container--register form {
+    position: relative;
+  }
+}
+@media screen and (max-width: 500px) {
+
+}
